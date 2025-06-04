@@ -2,6 +2,7 @@ import { Image, StyleSheet, Text, View, Pressable } from "react-native";
 import { Audio } from 'expo-av';
 import { useEffect, useRef, useState } from "react";
 import { Link } from 'expo-router'; // <<< IMPORTANTE: Para navegação
+import { Platform } from 'react-native'; // Estava dando erro no meu tive que adicionar isso para integrar com o calendario 
 
 const pomodoro = [
   {
